@@ -1,10 +1,60 @@
 import '../Assets/CSS/Tours.css';
+let gsap;
+let ScrollTrigger;
 function Tours() {
+    gsap.registerPlugin(ScrollTrigger);
 
+    gsap.utils.toArray(".reveal").forEach(function (section) {
+      var title = section.querySelector(".show");
+      var imgWrapper = section.querySelector(".img-wrapper");
+      var img = section.querySelector(".project-img");
+      var subText = section.querySelector(".sub");
+    
+      gsap.to(title, 1, {
+        ease: "power3.out",
+        y: 0,
+        scrollTrigger: {
+          trigger: section,
+          markers: true,
+          start: "-30%",
+          end: "bottom bottom"
+        }
+      });
+      gsap.to(imgWrapper, 1, {
+        ease: "power3.out",
+        width: "70%",
+        scrollTrigger: {
+          trigger: section,
+          start: "-50px",
+          end: "bottom bottom"
+        }
+      });
+    
+      gsap.to(img, 1.05, {
+        ease: "power3.out",
+        width: "100%",
+        scrollTrigger: {
+          trigger: section,
+          start: "-50px",
+          end: "bottom bottom"
+        }
+      });
+      gsap.to(subText, 1.1, {
+        ease: "power3.out",
+        y: 0,
+        opacity: 1,
+        scrollTrigger: {
+          trigger: section,
+          start: "-30%",
+          end: "bottom bottom"
+        }
+      });
+    });
+    
     return (
         <div className="tours-container">
-            <section class="hero">
-                <div class="search">
+            <section class="hero section-stours">
+                <div class="tours-search">
                     <h1>Find your next travel destination</h1>
                     <input type="text" placeholder="search location" />
                 </div>

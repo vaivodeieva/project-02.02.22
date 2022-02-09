@@ -5,7 +5,7 @@
     margin: 0;
     background-color: #1a1a1a;
   }
-  section {
+  .section-tours {
     height: 100vh;
     width: 100vw;
     background-color: #1a1a1a;
@@ -59,7 +59,7 @@
     border: 1px solid grey;
     margin: 30px 0;
   }
-  .search {
+  .tours-search {
     margin: auto 0;
     display: flex;
     flex-direction: column;
