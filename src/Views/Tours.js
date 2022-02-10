@@ -53,7 +53,7 @@ function Tours() {
     
     return (
         <div className="tours-container">
-            <section class="hero section-stours">
+            <section class="hero section-tours">
                 <div class="tours-search">
                     <h1>Find your next travel destination</h1>
                     <input type="text" placeholder="search location" />
