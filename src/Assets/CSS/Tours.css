@@ -26,14 +26,14 @@ to get your font sizes
     display: block;
   }
   
-  /* * html .clearfix {
+  html .clearfix {
     height: 1%;
-  } */
+  } 
   
   /* html,
   body {
     background: url("../images/green-small.jpg");
-  } */
+  }  */
   h1 {
     padding: 0.5rem;
     font-family: "Tangerine", cursive;
@@ -101,7 +101,7 @@ to get your font sizes
   }
   .buttons input {
     margin-top: 3rem;
-    background-color: #ffffff;
+    background-color: transparent;
   }
   
   label {
@@ -174,3 +174,8 @@ to get your font sizes
     }
   }
   
+  .tours-wrapper {
+    background-image: url("../IMAGES/tours.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
