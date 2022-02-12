@@ -4,10 +4,10 @@
 Remember to use something like type-scale.com 
 to get your font sizes
 *******************************************/
-* {
+/* * {
     padding: 0;
     margin: 0;
-  }
+  } */
   
   .clearfix:after {
     content: ".";
@@ -51,32 +51,34 @@ to get your font sizes
     font-size: 1.2rem;
     text-align: left;
   }
-  svg {
+  /* svg {
     fill: #8ea5ff;
-  }
+  } */
   
   /*******************************************
                   Layout
   *******************************************/
   .wrapper {
-    background-color: #78b23b;
+    /* background-color: #78b23b; */
     opacity: 0.9;
     margin: 0 auto;
-    border: 0.2rem solid #b26c58;
+    background-color: transparent;
+    /* border: 0.2rem solid #b26c58; */
   }
   .masthead {
     text-align: center;
-    background-color: #cc745a;
+    /* background-color: #cc745a; */
   }
   .main {
     box-sizing: border-box;
-    background-color: #c6ff8a;
-    border: 0.2rem solid #b26c58;
+    background-color: transparent!important;
+    /* background-color: #c6ff8a; */
+    /* border: 0.2rem solid #b26c58; */
     padding: 2rem;
     margin: 0 auto;
   }
   .foot {
-    background-color: #cc745a;
+    /* background-color: #cc745a; */
     clear: both;
   }
   .foot p {
@@ -122,9 +124,11 @@ to get your font sizes
   select {
     width: 30%;
   }
+
   input[type="text"],
   input[type="number"],
   input[type="date"] {
+    background-color: transparent;
   }
   
   /*******************************************
@@ -137,6 +141,8 @@ to get your font sizes
   @media screen and (min-width: 500px) {
     .main {
       max-width: 780px;
+      max-height: 800px;
+      background-color: transparent;
     }
     .formBox {
       width: 50%;
