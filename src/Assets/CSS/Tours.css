@@ -149,7 +149,7 @@ to get your font sizes
   @media screen and (min-width: 500px) {
     .main {
       max-width: 780px;
-      max-height: 800px;
+      height: 1000px;
       background-color: transparent;
     }
     .formBox {
