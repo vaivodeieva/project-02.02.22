@@ -52,7 +52,7 @@ function Tours() {
                                 <input type="number" name="num_adults" id="num_adults" min="1" max="10" step="1" />
 
 
-                                <select name="num_adults" id="num_adults">
+                                {/* <select name="num_adults" id="num_adults">
                                     <option value="1">1</option>
                                     <option value="2">2</option>
                                     <option value="3">3</option>
@@ -63,7 +63,7 @@ function Tours() {
                                     <option value="8">8</option>
                                     <option value="9">9</option>
                                     <option value="10">10</option>
-                                </select>
+                                </select> */}
 
                             </div>
 
@@ -72,7 +72,7 @@ function Tours() {
                                     <path d="M2 0v1h-.75c-.68 0-1.25.57-1.25 1.25v.5c0 .68.44 1.24 1.09 1.41l2.56.66c.14.04.34.29.34.44v.5c0 .14-.11.25-.25.25h-2.5c-.12 0-.21-.04-.25-.06v-.94h-1v1c0 .34.2.63.44.78.23.16.52.22.81.22h.75v1h1v-1h.75c.69 0 1.25-.56 1.25-1.25v-.5c0-.68-.44-1.24-1.09-1.41l-2.56-.66c-.14-.04-.34-.29-.34-.44v-.5c0-.14.11-.25.25-.25h2.5c.11 0 .21.04.25.06v.94h1v-1c0-.34-.2-.63-.44-.78-.23-.16-.52-.22-.81-.22h-.75v-1h-1z" transform="translate(1)" />
                                 </svg> Price range</label>
                                 <input id="amount" type="text" />
-                                <div id="slider-range"></div>
+                                {/* <div id="slider-range"></div> */}
                             </div>
 
                             <div className=" col buttons">
