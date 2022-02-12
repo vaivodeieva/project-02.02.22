@@ -6,13 +6,13 @@ function Tours() {
 
     return (
         <div className='tours-wrapper'>
-            <div className="wrapperf">
+            <div className="wrapper">
                 <div className="masthead">
                     <h1>Travel Destinations</h1>
                 </div>
                 <section className="main">
                     <h2>Flight details</h2>
-                    <p>please fill the form below with your travel details. This form is specifically for couples without children.</p>
+                    <p>please fill the form below with your travel details.</p>
                     <form name="travelForm" id="travelForm" action="#" method="post" enctype="application/x-www-form-urlencoded">
                         <div className="clearfix">
                             <div className="formBox">

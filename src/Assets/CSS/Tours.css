@@ -9,26 +9,26 @@ to get your font sizes
     margin: 0;
   } */
   
-  .clearfix:after {
+  /* .clearfix:after {
     content: ".";
     display: block;
     clear: both;
     visibility: hidden;
     line-height: 0;
     height: 0;
-  }
+  } */
   
-  .clearfix {
-    display: inline-block;
+  /* .clearfix {
+    display:contents;
   }
-  
-  html[xmlns] .clearfix {
+   */
+  /* html[xmlns] .clearfix {
     display: block;
-  }
+  } */
   
-  html .clearfix {
+  /* html .clearfix {
     height: 1%;
-  } 
+  }  */
   
   /* html,
   body {
@@ -38,10 +38,14 @@ to get your font sizes
     padding: 0.5rem;
     font-family: "Tangerine", cursive;
     font-size: 4rem;
+    padding-top: 57px;
+    color: transparent;
+
   }
   h2 {
     font-family: "Tangerine", cursive;
     font-size: 3rem;
+    font: white;
   }
   
   p {
@@ -50,6 +54,7 @@ to get your font sizes
     font-family: "Flamenco", cursive;
     font-size: 1.2rem;
     text-align: left;
+    font: white;
   }
   /* svg {
     fill: #8ea5ff;
@@ -62,11 +67,14 @@ to get your font sizes
     /* background-color: #78b23b; */
     opacity: 0.9;
     margin: 0 auto;
+    margin-left: 0;
     background-color: transparent;
+    padding-left: 10px;
     /* border: 0.2rem solid #b26c58; */
   }
   .masthead {
     text-align: center;
+    
     /* background-color: #cc745a; */
   }
   .main {
@@ -75,12 +83,10 @@ to get your font sizes
     /* background-color: #c6ff8a; */
     /* border: 0.2rem solid #b26c58; */
     padding: 2rem;
-    margin: 0 auto;
+
+    margin-left: 30px;
   }
-  .foot {
-    /* background-color: #cc745a; */
-    clear: both;
-  }
+  
   .foot p {
     text-align: center;
   }
