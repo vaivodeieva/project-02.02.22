@@ -8,7 +8,6 @@ function Tours() {
         <div className='tours-wrapper'>
             <div className="wrapper">
                 <div className="masthead">
-                    <h1>Travel Destinations</h1>
                 </div>
                 <section className="main">
                     <h2>Flight details</h2>
