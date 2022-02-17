@@ -21,10 +21,10 @@ function About() {
   </div>
 </div>
 
-<div className="w3-container" style="padding:128px 16px" id="about">
+<div className="w3-container" style={{padding: '128px 16px'}} id="about">
   <h3 className="w3-center">ABOUT THE COMPANY</h3>
   <p className="w3-center w3-large">Key features of our company</p>
-  <div className="w3-row-padding w3-center" style="margin-top:64px">
+  <div className="w3-row-padding w3-center" style={{marginTop: '64px'}}>
     <div className="w3-quarter">
       <i className="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
       <p className="w3-large">Responsive</p>
@@ -48,7 +48,7 @@ function About() {
   </div>
 </div>
 
-<div className="w3-container w3-light-grey" style="padding:128px 16px">
+<div className="w3-container w3-light-grey" style={{padding: '128px 16px'}}>
   <div className="w3-row-padding">
     <div className="w3-col m6">
       <h3>We know design.</h3>
@@ -131,7 +131,7 @@ function About() {
   </div>
 </div>
 
-<div className="w3-container" style="padding:128px 16px" id="work">
+<div className="w3-container" style={{padding: '128px 16px'}} id="work">
   <h3 className="w3-center">OUR WORK</h3>
   <p className="w3-center w3-large">What we've done for people</p>
 
@@ -200,7 +200,7 @@ function About() {
   </div>
 </div>
 
-<div className="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="pricing">
+<div className="w3-container w3-center w3-dark-grey" style={{padding: '128px 16px'}} id="pricing">
   <h3>PRICING</h3>
   <p className="w3-large">Choose a pricing plan that fits your needs.</p>
   <div className="w3-row-padding" style="margin-top:64px">
