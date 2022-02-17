@@ -5,13 +5,13 @@ function About() {
         <div>
 
 <div className="bgimg-1 w3-display-container w3-grayscale-min" id="home">
-  <div className="w3-display-left w3-text-white" style="padding:48px">
+  <div className="w3-display-left w3-text-white" style={{padding:'48px'}}>
     <span className="w3-jumbo w3-hide-small">Start something that matters</span><br/>
     <span className="w3-xxlarge w3-hide-large w3-hide-medium">Start something that matters</span><br/>
     <span className="w3-large">Stop wasting valuable time with projects that just isn't you.</span>
     <p><a href="#about" className="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more and start today</a></p>
   </div>
-  <div className="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+  <div className="w3-display-bottomleft w3-text-grey w3-large" style={{padding: '24px 48px'}}>
     <i className="fa fa-facebook-official w3-hover-opacity"></i>
     <i className="fa fa-instagram w3-hover-opacity"></i>
     <i className="fa fa-snapchat w3-hover-opacity"></i>
@@ -64,10 +64,10 @@ function About() {
 <div className="w3-container" style={{padding: '128px 16px'}} id="team">
   <h3 className="w3-center">THE TEAM</h3>
   <p className="w3-center w3-large">The ones who runs this company</p>
-  <div className="w3-row-padding w3-grayscale" style="margin-top:64px">
+  <div className="w3-row-padding w3-grayscale" style={{marginTop:'64px'}}>
     <div className="w3-col l3 m6 w3-margin-bottom">
       <div className="w3-card">
-        <img src="/w3images/team2.jpg" alt="John" style="width:100%"/>
+        <img src="/w3images/team2.jpg" alt="John" style={{width: '100%'}}/>
         <div className="w3-container">
           <h3>John Doe</h3>
           <p className="w3-opacity">CEO and Founder</p>
@@ -78,7 +78,7 @@ function About() {
     </div>
     <div className="w3-col l3 m6 w3-margin-bottom">
       <div className="w3-card">
-        <img src="/w3images/team1.jpg" alt="Jane" style="width:100%"/>
+        <img src="/w3images/team1.jpg" alt="Jane" style={{width:'100%'}}/>
         <div className="w3-container">
           <h3>Anja Doe</h3>
           <p className="w3-opacity">Art Director</p>
@@ -89,7 +89,7 @@ function About() {
     </div>
     <div className="w3-col l3 m6 w3-margin-bottom">
       <div className="w3-card">
-        <img src="/w3images/team3.jpg" alt="Mike" style="width:100%"/>
+        <img src="/w3images/team3.jpg" alt="Mike" style={{width:'100%'}}/>
         <div className="w3-container">
           <h3>Mike Ross</h3>
           <p className="w3-opacity">Web Designer</p>
@@ -100,7 +100,7 @@ function About() {
     </div>
     <div className="w3-col l3 m6 w3-margin-bottom">
       <div className="w3-card">
-        <img src="/w3images/team4.jpg" alt="Dan" style="width:100%"/>
+        <img src="/w3images/team4.jpg" alt="Dan" style={{width:'100%'}}/>
         <div className="w3-container">
           <h3>Dan Star</h3>
           <p className="w3-opacity">Designer</p>
@@ -135,33 +135,33 @@ function About() {
   <h3 className="w3-center">OUR WORK</h3>
   <p className="w3-center w3-large">What we've done for people</p>
 
-  <div className="w3-row-padding" style="margin-top:64px">
+  <div className="w3-row-padding" style={{marginTop:'64px'}}>
     <div className="w3-col l3 m6">
-      <img src="/w3images/tech_mic.jpg" style="width:100%" onclick="onClick(this)" className="w3-hover-opacity" alt="A microphone"/>
+      <img src="/w3images/tech_mic.jpg" style={{width:'100%'}} onclick="onClick(this)" className="w3-hover-opacity" alt="A microphone"/>
     </div>
     <div className="w3-col l3 m6">
-      <img src="https://www.noncopyright.com/wp-content/uploads/2018/07/Tilted-iPhone-8-MockUp-1280x720.png" style="width:100%" onclick="onClick(this)" className="w3-hover-opacity" alt="A phone"/>
+      <img src="https://www.noncopyright.com/wp-content/uploads/2018/07/Tilted-iPhone-8-MockUp-1280x720.png" style={{width:'100%'}} onclick="onClick(this)" className="w3-hover-opacity" alt="A phone"/>
     </div>
     <div className="w3-col l3 m6">
-      <img src="https://lh3.googleusercontent.com/proxy/brX8e-crjAcd0jD8OzOvTmR2vYfLxt4zSPZCzvZl036ynxk4dyckBUBIK8rXD_a9XYgPmhA1NThuM8_6v7iHEZ4g4JNidXJ4TPoJqYNHgVS5m-N3SNLDLfZgsMGvmvWNMnI" style="width:100%" onclick="onClick(this)" className="w3-hover-opacity" alt="A drone"/>
+      <img src="https://lh3.googleusercontent.com/proxy/brX8e-crjAcd0jD8OzOvTmR2vYfLxt4zSPZCzvZl036ynxk4dyckBUBIK8rXD_a9XYgPmhA1NThuM8_6v7iHEZ4g4JNidXJ4TPoJqYNHgVS5m-N3SNLDLfZgsMGvmvWNMnI" style={{width: '100%'}} onclick="onClick(this)" className="w3-hover-opacity" alt="A drone"/>
     </div>
     <div className="w3-col l3 m6">
-      <img src="/w3images/tech_sound.jpg" style="width:100%" onclick="onClick(this)" className="w3-hover-opacity" alt="Soundbox"/>
+      <img src="/w3images/tech_sound.jpg" style={{width:'100%'}} onclick="onClick(this)" className="w3-hover-opacity" alt="Soundbox"/>
     </div>
   </div>
 
   <div className="w3-row-padding w3-section">
     <div className="w3-col l3 m6">
-      <img src="/w3images/tech_tablet.jpg" style="width:100%" onclick="onClick(this)" className="w3-hover-opacity" alt="A tablet"/>
+      <img src="/w3images/tech_tablet.jpg" style={{width: '100%'}} onclick="onClick(this)" className="w3-hover-opacity" alt="A tablet"/>
     </div>
     <div className="w3-col l3 m6">
-      <img src="/w3images/tech_camera.jpg" style="width:100%" onclick="onClick(this)" className="w3-hover-opacity" alt="A camera"/>
+      <img src="/w3images/tech_camera.jpg" style={{width:'100%'}} onclick="onClick(this)" className="w3-hover-opacity" alt="A camera"/>
     </div>
     <div className="w3-col l3 m6">
-      <img src="/w3images/tech_typewriter.jpg" style="width:100%" onclick="onClick(this)" className="w3-hover-opacity" alt="A typewriter"/>
+      <img src="/w3images/tech_typewriter.jpg" style={{width:'100%'}} onclick="onClick(this)" className="w3-hover-opacity" alt="A typewriter"/>
     </div>
     <div className="w3-col l3 m6">
-      <img src="/w3images/tech_tableturner.jpg" style="width:100%" onclick="onClick(this)" className="w3-hover-opacity" alt="A tableturner"/>
+      <img src="/w3images/tech_tableturner.jpg" style={{width:'100%'}} onclick="onClick(this)" className="w3-hover-opacity" alt="A tableturner"/>
     </div>
   </div>
 </div>
@@ -186,15 +186,15 @@ function About() {
     <div className="w3-col m6">
       <p className="w3-wide"><i className="fa fa-camera w3-margin-right"></i>Photography</p>
       <div className="w3-grey">
-        <div className="w3-container w3-dark-grey w3-center" style="width:90%">90%</div>
+        <div className="w3-container w3-dark-grey w3-center" style={{width:'90%'}}>90%</div>
       </div>
       <p className="w3-wide"><i className="fa fa-desktop w3-margin-right"></i>Web Design</p>
       <div className="w3-grey">
-        <div className="w3-container w3-dark-grey w3-center" style="width:85%">85%</div>
+        <div className="w3-container w3-dark-grey w3-center" style={{width:'85%'}}>85%</div>
       </div>
       <p className="w3-wide"><i className="fa fa-photo w3-margin-right"></i>Photoshop</p>
       <div className="w3-grey">
-        <div className="w3-container w3-dark-grey w3-center" style="width:75%">75%</div>
+        <div className="w3-container w3-dark-grey w3-center" style={{width:'75%'}}>75%</div>
       </div>
     </div>
   </div>
@@ -203,7 +203,7 @@ function About() {
 <div className="w3-container w3-center w3-dark-grey" style={{padding: '128px 16px'}} id="pricing">
   <h3>PRICING</h3>
   <p className="w3-large">Choose a pricing plan that fits your needs.</p>
-  <div className="w3-row-padding" style="margin-top:64px">
+  <div className="w3-row-padding" style={{marginTop:'64px'}}>
     <div className="w3-third w3-section">
       <ul className="w3-ul w3-white w3-hover-shadow">
         <li className="w3-black w3-xlarge w3-padding-32">Basic</li>
@@ -255,10 +255,10 @@ function About() {
   </div>
 </div>
 
-<div className="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+<div className="w3-container w3-light-grey" style={{padding: '128px 16px'}} id="contact">
   <h3 className="w3-center">CONTACT</h3>
   <p className="w3-center w3-large">Lets get in touch. Send us a message:</p>
-  <div style="margin-top:48px">
+  <div style={{marginTop: '48px'}}>
     <p><i className="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Chicago, US</p>
     <p><i className="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
     <p><i className="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
