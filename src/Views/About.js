@@ -138,31 +138,31 @@ function About() {
 
   <div className="w3-row-padding" style={{marginTop:'64px'}}>
     <div className="w3-col l3 m6">
-      <img src="https://www.noncopyright.com/wp-content/uploads/2018/07/Tilted-iPhone-8-MockUp-1280x720.png" style={{width:'100%'}} onclick="onClick(this)" className="w3-hover-opacity" alt="#"/>
+      <img src="https://www.peru.travel/Contenido/General/Imagen/en/326/1.1/Vinicunca.jpg" style={{width:'100%'}} onclick="onClick(this)" className="w3-hover-opacity" alt="A microphone"/>
     </div>
     <div className="w3-col l3 m6">
-      <img src="https://www.noncopyright.com/wp-content/uploads/2018/07/Tilted-iPhone-8-MockUp-1280x720.png" style={{width:'100%'}} onclick="onClick(this)" className="w3-hover-opacity" alt="#"/>
+      <img src="https://www.peru.travel/Contenido/General/Imagen/en/326/1.1/Vinicunca.jpg" style={{width:'100%'}} onclick="onClick(this)" className="w3-hover-opacity" alt="A phone"/>
+    </div>
+    <div className="w3-col l3 m4">
+      <img src="https://www.peru.travel/Contenido/General/Imagen/en/326/1.1/Vinicunca.jpg" style={{width: '100%'}} onclick="onClick(this)" className="w3-hover-opacity" alt="A drone"/>
     </div>
     <div className="w3-col l3 m6">
-      <img src="https://www.noncopyright.com/wp-content/uploads/2018/07/Tilted-iPhone-8-MockUp-1280x720.png" style={{width: '100%'}} onclick="onClick(this)" className="w3-hover-opacity" alt="#"/>
-    </div>
-    <div className="w3-col l3 m6">
-      <img src="https://www.noncopyright.com/wp-content/uploads/2018/07/Tilted-iPhone-8-MockUp-1280x720.png" style={{width:'100%'}} onclick="onClick(this)" className="w3-hover-opacity" alt="#"/>
+      <img src="https://www.peru.travel/Contenido/General/Imagen/en/326/1.1/Vinicunca.jpg" style={{width:'100%'}} onclick="onClick(this)" className="w3-hover-opacity" alt="Soundbox"/>
     </div>
   </div>
 
   <div className="w3-row-padding w3-section">
     <div className="w3-col l3 m6">
-      <img src="/w3images/tech_tablet.jpg" style={{width: '100%'}} onclick="onClick(this)" className="w3-hover-opacity" alt="A tablet"/>
+      <img src="https://www.peru.travel/Contenido/General/Imagen/en/326/1.1/Vinicunca.jpg" style={{width: '100%'}} onclick="onClick(this)" className="w3-hover-opacity" alt="A tablet"/>
     </div>
     <div className="w3-col l3 m6">
-      <img src="/w3images/tech_camera.jpg" style={{width:'100%'}} onclick="onClick(this)" className="w3-hover-opacity" alt="A camera"/>
+      <img src="https://www.peru.travel/Contenido/General/Imagen/en/326/1.1/Vinicunca.jpg" style={{width:'100%'}} onclick="onClick(this)" className="w3-hover-opacity" alt="A camera"/>
     </div>
     <div className="w3-col l3 m6">
-      <img src="/w3images/tech_typewriter.jpg" style={{width:'100%'}} onclick="onClick(this)" className="w3-hover-opacity" alt="A typewriter"/>
+      <img src="https://www.peru.travel/Contenido/General/Imagen/en/326/1.1/Vinicunca.jpg" style={{width:'100%'}} onclick="onClick(this)" className="w3-hover-opacity" alt="A typewriter"/>
     </div>
     <div className="w3-col l3 m6">
-      <img src="/w3images/tech_tableturner.jpg" style={{width:'100%'}} onclick="onClick(this)" className="w3-hover-opacity" alt="A tableturner"/>
+      <img src="https://www.peru.travel/Contenido/General/Imagen/en/326/1.1/Vinicunca.jpg" style={{width:'100%'}} onclick="onClick(this)" className="w3-hover-opacity" alt="A tableturner"/>
     </div>
   </div>
 </div>
