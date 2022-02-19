@@ -4,8 +4,8 @@ function About() {
 
     return (
         <div>
-
-<div className="bgimg-1 " id="home">
+<div className="top-container">
+<div className="bgimg1 w3-display-container w3-grayscale-min" id="home">
   <div className="w3-display-left w3-text-white" style={{padding:'48px'}}>
     {/* <span className="w3-jumbo w3-hide-small">Start something that matters</span><br/> */}
     {/* <span className="w3-xxlarge w3-hide-large w3-hide-medium">Start something that matters</span><br/> */}
@@ -20,6 +20,7 @@ function About() {
     <i className="fa fa-twitter w3-hover-opacity"></i>
     <i className="fa fa-linkedin w3-hover-opacity"></i>
   </div>
+</div>
 </div>
 
 <div className="w3-container" style={{padding: '128px 16px'}} id="about">
