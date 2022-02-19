@@ -138,16 +138,16 @@ function About() {
 
   <div className="w3-row-padding" style={{marginTop:'64px'}}>
     <div className="w3-col l3 m6">
-      <img src="/w3images/tech_mic.jpg" style={{width:'100%'}} onclick="onClick(this)" className="w3-hover-opacity" alt="A microphone"/>
+      <img src="https://www.noncopyright.com/wp-content/uploads/2018/07/Tilted-iPhone-8-MockUp-1280x720.png" style={{width:'100%'}} onclick="onClick(this)" className="w3-hover-opacity" alt="A microphone"/>
     </div>
     <div className="w3-col l3 m6">
       <img src="https://www.noncopyright.com/wp-content/uploads/2018/07/Tilted-iPhone-8-MockUp-1280x720.png" style={{width:'100%'}} onclick="onClick(this)" className="w3-hover-opacity" alt="A phone"/>
     </div>
     <div className="w3-col l3 m6">
-      <img src="https://lh3.googleusercontent.com/proxy/brX8e-crjAcd0jD8OzOvTmR2vYfLxt4zSPZCzvZl036ynxk4dyckBUBIK8rXD_a9XYgPmhA1NThuM8_6v7iHEZ4g4JNidXJ4TPoJqYNHgVS5m-N3SNLDLfZgsMGvmvWNMnI" style={{width: '100%'}} onclick="onClick(this)" className="w3-hover-opacity" alt="A drone"/>
+      <img src="https://www.noncopyright.com/wp-content/uploads/2018/07/Tilted-iPhone-8-MockUp-1280x720.png" style={{width: '100%'}} onclick="onClick(this)" className="w3-hover-opacity" alt="A drone"/>
     </div>
     <div className="w3-col l3 m6">
-      <img src="/w3images/tech_sound.jpg" style={{width:'100%'}} onclick="onClick(this)" className="w3-hover-opacity" alt="Soundbox"/>
+      <img src="https://www.noncopyright.com/wp-content/uploads/2018/07/Tilted-iPhone-8-MockUp-1280x720.png" style={{width:'100%'}} onclick="onClick(this)" className="w3-hover-opacity" alt="Soundbox"/>
     </div>
   </div>
 
