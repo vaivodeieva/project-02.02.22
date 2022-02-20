@@ -1,5 +1,9 @@
 import React from "react";
 import '../Assets/CSS/About.css';
+import fred from '../Assets/IMAGES/fred.png';
+import wilma from '../Assets/IMAGES/wilma.jpg';
+import pebla from '../Assets/IMAGES/Pebla.jpg';
+import pebla2 from '../Assets/IMAGES/pebla2.jpg';
 function About() {
 
     return (
@@ -69,7 +73,7 @@ function About() {
   <div className="w3-row-padding w3-grayscale" style={{marginTop:'64px'}}>
     <div className="w3-col l3 m6 w3-margin-bottom">
       <div className="w3-card">
-        <img src="/w3images/team2.jpg" alt="John" style={{width: '100%'}}/>
+        <img src={fred} alt="John" style={{width: '100%'}}/>
         <div className="w3-container">
           <h3>John Doe</h3>
           <p className="w3-opacity">CEO and Founder</p>
@@ -80,7 +84,7 @@ function About() {
     </div>
     <div className="w3-col l3 m6 w3-margin-bottom">
       <div className="w3-card">
-        <img src="/w3images/team1.jpg" alt="Jane" style={{width:'100%'}}/>
+        <img src={wilma} alt="Jane" style={{width:'100%'}}/>
         <div className="w3-container">
           <h3>Anja Doe</h3>
           <p className="w3-opacity">Art Director</p>
@@ -91,7 +95,7 @@ function About() {
     </div>
     <div className="w3-col l3 m6 w3-margin-bottom">
       <div className="w3-card">
-        <img src="/w3images/team3.jpg" alt="Mike" style={{width:'100%'}}/>
+        <img src={pebla} alt="Mike" style={{width:'100%'}}/>
         <div className="w3-container">
           <h3>Mike Ross</h3>
           <p className="w3-opacity">Web Designer</p>
@@ -102,7 +106,7 @@ function About() {
     </div>
     <div className="w3-col l3 m6 w3-margin-bottom">
       <div className="w3-card">
-        <img src="/w3images/team4.jpg" alt="Dan" style={{width:'100%'}}/>
+        <img src={pebla2} alt="Dan" style={{width:'100%'}}/>
         <div className="w3-container">
           <h3>Dan Star</h3>
           <p className="w3-opacity">Designer</p>
