@@ -53,9 +53,9 @@ function About() {
 <div className="w3-container w3-light-grey" style={{padding: '128px 16px'}}>
   <div className="w3-row-padding">
     <div className="w3-col m6">
-      <h3>We know design.</h3>
+      <h3>We know the travelling</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br/>tempor incididunt ut labore et dolore.</p>
-      <p><a href="#work" className="w3-button w3-black"><i className="fa fa-th"> </i> View Our Works</a></p>
+      <p><a href="#work" className="w3-button w3-black"><i className="fa fa-th"> </i> View the destinations</a></p>
     </div>
     <div className="w3-col m6">
       <img className="w3-image w3-round-large" src="https://images.pexels.com/photos/374023/pexels-photo-374023.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Buildings" width="700" height="394"/>
@@ -176,7 +176,7 @@ function About() {
   </div>
 </div>
 
-<div className="w3-container w3-light-grey w3-padding-64">
+{/* <div className="w3-container w3-light-grey w3-padding-64">
   <div className="w3-row-padding">
     <div className="w3-col m6">
       <h3>Our Skills.</h3>
@@ -200,7 +200,7 @@ function About() {
       </div>
     </div>
   </div>
-</div>
+</div> */}
 
 <div className="w3-container w3-center w3-dark-grey" style={{padding: '128px 16px'}} id="pricing">
   <h3>PRICING</h3>
