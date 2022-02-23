@@ -261,10 +261,13 @@ function About() {
         <h3 className="w3-center">CONTACT</h3>
         <p className="w3-center w3-large">Lets get in touch. Send us a message:</p>
         <div style={{ marginTop: '48px' }}>
+          <div className="w3-col-m6">
           <p><i className="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Chicago, US</p>
           <p><i className="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
           <p><i className="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+          </div>
           <br />
+          <div className="w3-col-m6">
           <form action="/action_page.php" target="_blank">
             <p><input className="w3-input w3-border" type="text" placeholder="Name" required name="Name" /></p>
             <p><input className="w3-input w3-border" type="text" placeholder="Email" required name="Email" /></p>
@@ -276,6 +279,7 @@ function About() {
               </button>
             </p>
           </form>
+          </div>
           <img src="/w3images/map.jpg" className="w3-image w3-greyscale" style={{ width: '100%', marginToop: '48px' }} />
         </div>
       </div>
