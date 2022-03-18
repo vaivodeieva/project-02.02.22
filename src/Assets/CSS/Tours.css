@@ -105,14 +105,14 @@ to get your font sizes
   #slider-range {
     margin: 1rem 0rem;
     width: 80%;
-    color: #b26c58!important;
+    color: white!important;
   }
   .buttons {
     padding-bottom: 1rem;
   }
   .buttons input {
     margin-top: 3rem;
-    background-color: transparent;
+    background-color: white!important;
   }
   
   label {
@@ -126,9 +126,11 @@ to get your font sizes
   textarea {
     padding: 0.4rem;
     font-family: "Flamenco", cursive;
-    width: 80%;
+    width: 95%;
     font-size: 1rem;
-    border: 0.2rem solid #b26c58;
+    border: 0.2rem solid white;
+    border-radius: 50px;
+    background-color: white!important;
   }
   select {
     width: 30%;
@@ -193,4 +195,9 @@ to get your font sizes
     background-image: url("../IMAGES/tours-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  label {
+    color: white!important;
+    font-size: 18px;
   }
