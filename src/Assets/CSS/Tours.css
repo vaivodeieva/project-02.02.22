@@ -82,10 +82,10 @@ to get your font sizes
     background-color: transparent!important;
     /* background-color: #c6ff8a; */
     /* border: 0.2rem solid #b26c58; */
-    padding: 2rem;
+    /* padding: 2rem; */
     padding-left: 0;
 
-    margin-left: 30px;
+    margin-left: 10px;
     padding-top: 200px;
   }
   
@@ -190,7 +190,7 @@ to get your font sizes
   }
   
   .tours-wrapper {
-    background-image: url("../IMAGES/tours.jpg");
+    background-image: url("../IMAGES/tours-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }

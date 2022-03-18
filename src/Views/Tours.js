@@ -2,8 +2,6 @@ import React from 'react';
 import '../Assets/CSS/Tours.css';
 function Tours() {
 
-
-
     return (
         <div className='tours-wrapper'>
             <div className="wrapper">
