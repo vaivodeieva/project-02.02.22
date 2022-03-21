@@ -8,6 +8,7 @@ function About() {
 
   return (
     <div>
+      <div className="team-container w3-blue">
       <div className="top-container">
         <div className="bgimg1 w3-display-container w3-grayscale-min" id="home">
           <div className="w3-display-left w3-text-white" style={{ padding: '48px' }}>
@@ -23,50 +24,9 @@ function About() {
         </div>
       </div>
 
-      {/* <div className="w3-container" style={{padding: '128px 16px'}} id="about">
-  <h3 className="w3-center">ABOUT THE COMPANY</h3>
-  <p className="w3-center w3-large">Key features of our company</p>
-  <div className="w3-row-padding w3-center" style={{marginTop: '64px'}}>
-    <div className="w3-quarter">
-      <i className="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
-      <p className="w3-large">Responsive</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-    </div>
-    <div className="w3-quarter">
-      <i className="fa fa-heart w3-margin-bottom w3-jumbo"></i>
-      <p className="w3-large">Passion</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-    </div>
-    <div className="w3-quarter">
-      <i className="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
-      <p className="w3-large">Design</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-    </div>
-    <div className="w3-quarter">
-      <i className="fa fa-cog w3-margin-bottom w3-jumbo"></i>
-      <p className="w3-large">Support</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-    </div>
-  </div>
-</div> */}
-
-      <div className="w3-container w3-light-grey" style={{ padding: '128px 16px' }}>
-        <div className="w3-row-padding">
-          <div className="w3-col m6">
-            <h3>We know the travelling</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br />tempor incididunt ut labore et dolore.</p>
-            <p><a href="#work" className="w3-button w3-black"><i className="fa fa-th"> </i> View the destinations</a></p>
-          </div>
-          <div className="w3-col m6">
-            <img className="w3-image w3-round-large" src="https://images.pexels.com/photos/374023/pexels-photo-374023.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Buildings" width="700" height="394" />
-          </div>
-        </div>
-      </div>
-
       <div className="w3-container" style={{ padding: '128px 16px' }} id="team">
-        <h3 className="w3-center">THE TEAM</h3>
-        <p className="w3-center w3-large">The ones who runs this company</p>
-        <div className="w3-row-padding w3-grayscale" style={{ marginTop: '64px' }}>
+        <h3 className="w3-center">OUR TEAM</h3>
+        <div className="w3-row-padding w3-blue" style={{ marginTop: '64px' }}>
           <div className="w3-col l3 m6 w3-margin-bottom">
             <div className="w3-card">
               <img src={john} alt="John" style={{ width: '100%' }} />
@@ -113,102 +73,14 @@ function About() {
           </div>
         </div>
       </div>
-
-      <div className="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
-        <div className="w3-quarter">
-          <span className="w3-xxlarge">14+</span>
-          <br />Partners
-        </div>
-        <div className="w3-quarter">
-          <span className="w3-xxlarge">55+</span>
-          <br />Projects Done
-        </div>
-        <div className="w3-quarter">
-          <span className="w3-xxlarge">89+</span>
-          <br />Happy Clients
-        </div>
-        <div className="w3-quarter">
-          <span className="w3-xxlarge">150+</span>
-          <br />Meetings
-        </div>
       </div>
 
-      <div className="w3-container" style={{ padding: '128px 16px' }} id="work">
-        <h3 className="w3-center">OUR WORK</h3>
-        <p className="w3-center w3-large">What we've done for people</p>
-
-        <div className="w3-row-padding" style={{ marginTop: '64px' }}>
-          <div className="w3-col l3 m6">
-            <img src="https://www.peru.travel/Contenido/General/Imagen/en/326/1.1/Vinicunca.jpg" style={{ width: '100%' }} onclick="onClick(this)" className="w3-hover-opacity" alt="A microphone" />
-          </div>
-          <div className="w3-col l3 m6">
-            <img src="https://www.peru.travel/Contenido/General/Imagen/en/326/1.1/Vinicunca.jpg" style={{ width: '100%' }} onclick="onClick(this)" className="w3-hover-opacity" alt="A phone" />
-          </div>
-          <div className="w3-col l3 m4">
-            <img src="https://www.peru.travel/Contenido/General/Imagen/en/326/1.1/Vinicunca.jpg" style={{ width: '100%' }} onclick="onClick(this)" className="w3-hover-opacity" alt="A drone" />
-          </div>
-          <div className="w3-col l3 m6">
-            <img src="https://www.peru.travel/Contenido/General/Imagen/en/326/1.1/Vinicunca.jpg" style={{ width: '100%' }} onclick="onClick(this)" className="w3-hover-opacity" alt="Soundbox" />
-          </div>
-        </div>
-
-        <div className="w3-row-padding w3-section">
-          <div className="w3-col l3 m6">
-            <img src="https://www.peru.travel/Contenido/General/Imagen/en/326/1.1/Vinicunca.jpg" style={{ width: '100%' }} onclick="onClick(this)" className="w3-hover-opacity" alt="A tablet" />
-          </div>
-          <div className="w3-col l3 m6">
-            <img src="https://www.peru.travel/Contenido/General/Imagen/en/326/1.1/Vinicunca.jpg" style={{ width: '100%' }} onclick="onClick(this)" className="w3-hover-opacity" alt="A camera" />
-          </div>
-          <div className="w3-col l3 m6">
-            <img src="https://www.peru.travel/Contenido/General/Imagen/en/326/1.1/Vinicunca.jpg" style={{ width: '100%' }} onclick="onClick(this)" className="w3-hover-opacity" alt="A typewriter" />
-          </div>
-          <div className="w3-col l3 m6">
-            <img src="https://www.peru.travel/Contenido/General/Imagen/en/326/1.1/Vinicunca.jpg" style={{ width: '100%' }} onclick="onClick(this)" className="w3-hover-opacity" alt="A tableturner" />
-          </div>
-        </div>
-      </div>
-
-      <div id="modal01" className="w3-modal w3-black" onclick="this.style.display='none'">
-        <span className="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
-        <div className="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-          <img id="img01" className="w3-image" />
-          <p id="caption" className="w3-opacity w3-large"></p>
-        </div>
-      </div>
-
-      {/* <div className="w3-container w3-light-grey w3-padding-64">
-  <div className="w3-row-padding">
-    <div className="w3-col m6">
-      <h3>Our Skills.</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br/>
-        tempor incididunt ut labore et dolore.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br/>
-        tempor incididunt ut labore et dolore.</p>
-    </div>
-    <div className="w3-col m6">
-      <p className="w3-wide"><i className="fa fa-camera w3-margin-right"></i>Photography</p>
-      <div className="w3-grey">
-        <div className="w3-container w3-dark-grey w3-center" style={{width:'90%'}}>90%</div>
-      </div>
-      <p className="w3-wide"><i className="fa fa-desktop w3-margin-right"></i>Web Design</p>
-      <div className="w3-grey">
-        <div className="w3-container w3-dark-grey w3-center" style={{width:'85%'}}>85%</div>
-      </div>
-      <p className="w3-wide"><i className="fa fa-photo w3-margin-right"></i>Photoshop</p>
-      <div className="w3-grey">
-        <div className="w3-container w3-dark-grey w3-center" style={{width:'75%'}}>75%</div>
-      </div>
-    </div>
-  </div>
-</div> */}
-
-      <div className="w3-container w3-center w3-dark-grey" style={{ padding: '128px 16px' }} id="pricing">
+      <div className="w3-container w3-center w3-blue" style={{ padding: '128px 16px' }} id="pricing">
         <h3>PRICING</h3>
-        <p className="w3-large">Choose a pricing plan that fits your needs.</p>
         <div className="w3-row-padding" style={{ marginTop: '64px' }}>
           <div className="w3-third w3-section">
             <ul className="w3-ul w3-white w3-hover-shadow">
-              <li className="w3-black w3-xlarge w3-padding-32">Basic</li>
+              <li className="w3-brown w3-xlarge w3-padding-32">Basic</li>
               <li className="w3-padding-16"><b>10GB</b> Storage</li>
               <li className="w3-padding-16"><b>10</b> Emails</li>
               <li className="w3-padding-16"><b>10</b> Domains</li>
@@ -218,13 +90,13 @@ function About() {
                 <span className="w3-opacity">per month</span>
               </li>
               <li className="w3-light-grey w3-padding-24">
-                <button className="w3-button w3-black w3-padding-large">Sign Up</button>
+                <button className="w3-button w3-brown w3-padding-large">Sign Up</button>
               </li>
             </ul>
           </div>
           <div className="w3-third">
             <ul className="w3-ul w3-white w3-hover-shadow">
-              <li className="w3-red w3-xlarge w3-padding-48">Pro</li>
+              <li className="w3-green w3-xlarge w3-padding-48">Pro</li>
               <li className="w3-padding-16"><b>25GB</b> Storage</li>
               <li className="w3-padding-16"><b>25</b> Emails</li>
               <li className="w3-padding-16"><b>25</b> Domains</li>
@@ -234,7 +106,7 @@ function About() {
                 <span className="w3-opacity">per month</span>
               </li>
               <li className="w3-light-grey w3-padding-24">
-                <button className="w3-button w3-black w3-padding-large">Sign Up</button>
+                <button className="w3-button w3-green w3-padding-large">Sign Up</button>
               </li>
             </ul>
           </div>
@@ -256,36 +128,7 @@ function About() {
           </div>
         </div>
       </div>
-
-      <div className="w3-container w3-light-grey" style={{ padding: '128px 16px' }} id="contact">
-        <h3 className="w3-center">CONTACT</h3>
-        <p className="w3-center w3-large">Lets get in touch. Send us a message:</p>
-        <div style={{ marginTop: '48px' }}>
-          <div className="w3-col-m6">
-          <p><i className="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Chicago, US</p>
-          <p><i className="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
-          <p><i className="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
-          </div>
-          <br />
-          <div className="w3-col-m6">
-          <form action="/action_page.php" target="_blank">
-            <p><input className="w3-input w3-border" type="text" placeholder="Name" required name="Name" /></p>
-            <p><input className="w3-input w3-border" type="text" placeholder="Email" required name="Email" /></p>
-            <p><input className="w3-input w3-border" type="text" placeholder="Subject" required name="Subject" /></p>
-            <p><input className="w3-input w3-border" type="text" placeholder="Message" required name="Message" /></p>
-            <p>
-              <button className="w3-button w3-black" type="submit">
-                <i className="fa fa-paper-plane"></i> SEND MESSAGE
-              </button>
-            </p>
-          </form>
-          </div>
-          <img src="/w3images/map.jpg" className="w3-image w3-greyscale" style={{ width: '100%', marginToop: '48px' }} />
-        </div>
-      </div>
-
     </div>
-
   )
 }
 
