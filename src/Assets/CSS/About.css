@@ -28,3 +28,7 @@ html {
 .top-container {
   background-color: green!important;
 }
+
+.w3-button {
+  border-radius: 10px;
+}
