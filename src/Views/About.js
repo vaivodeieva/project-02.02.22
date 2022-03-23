@@ -75,7 +75,7 @@ function About() {
       </div>
       </div>
 
-      <div className="w3-container w3-center w3-blue" style={{ padding: '128px 16px' }} id="pricing">
+      <div className="w3-container w3-center w3-blue" id="pricing">
         <h3>PRICING</h3>
         <div className="w3-row-padding" style={{ marginTop: '64px' }}>
           <div className="w3-third w3-section">
