@@ -33,8 +33,7 @@
     width: 95%;
     padding: 12px 20px;
     margin: 15px 8px;
-    border: none;
-    border-bottom: solid 1px #009933;
+    border: solid 1px #009933;
     font-size: 16px;
     height: 25px;
   }
