@@ -4,7 +4,7 @@ function Contacts() {
 
     return (
         <div>
-            <div className="container-contacts">
+            {/* <div className="container-contacts"> */}
             <div className="inner-container-contacts">
                 <div className="quote">
                     <h1 className="contacts-h1">Get A Quote</h1>
@@ -16,7 +16,7 @@ function Contacts() {
                     <textarea className="textarea-contacts" name="Message" id="" cols="30" rows="10" placeholder="Message"></textarea>
                     <button className="contacts-button" type="submit">Send Message</button>
                 </form>
-              </div>
+              {/* </div> */}
             </div>
 
         </div>
