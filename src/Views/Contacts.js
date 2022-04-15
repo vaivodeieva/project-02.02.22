@@ -5,7 +5,7 @@ function Contacts() {
     return (
         <div>
             {/* <div className="container-contacts"> */}
-            <div className="inner-container-contacts">
+            <div className="container-contacts">
                 <div className="quote">
                     <h1 className="contacts-h1">Get A Quote</h1>
                     <p className="contacts-p">Fill out the form and our team will get back to you within 24 hours.</p>
