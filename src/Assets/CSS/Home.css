@@ -34,7 +34,7 @@ General Styles
     text-align: center;
     background-color: #e07e7b;
     opacity: 1;
-    transition: all 400ms;
+    transition: all 100ms;
   }
   
   a.btn:hover {
